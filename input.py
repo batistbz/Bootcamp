@@ -1,0 +1,2 @@
+nome = input("Qual seu nome? ") # primeiro é exibida certa mensagem, que espera uma resposta do usuário para continuar
+print(f"Boa tarde {nome}") # aqui a mensagem que aparece contém a resposta do usuário
