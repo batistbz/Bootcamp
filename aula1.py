@@ -1,1 +1,1 @@
-print("oi")
+print("oi") # o print serve para que apareça algo para o usuário
