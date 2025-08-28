@@ -16,7 +16,7 @@ const course = [
         image: bcc,
         altText: "Curso BCC",
         title: "Bacharelado em Ciência da Computação",
-        description: "Prepare-se para atuar em áreas como desenvolvimento de software, inteligência artificial e mais.Fundamentos e inovação para o futuro",
+        description: "Prepare-se para atuar em áreas como desenvolvimento de software, inteligência artificial e mais. Fundamentos e inovação para o futuro",
         link: "https://oficial.unimar.br/cursos/ciencia-da-computacao/",
     },
     {
