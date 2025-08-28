@@ -1,4 +1,4 @@
-function CourseCard ({ image, altText, title, description, link, }) {
+function CourseCard ({ image, altText, title, description, link}) {
     return (
         <div class="card">
                     <img src={image} alt={altText}/>
