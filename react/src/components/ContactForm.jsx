@@ -10,7 +10,7 @@ function ContactForm() {
         setNome("");
         setEmail("");
     }
-    
+
     return(
 
         <section id="formulario">
@@ -23,7 +23,6 @@ function ContactForm() {
             <div class="input-container">
                 <input type="email" id="email" name="email" required placeholder="Digite seu e-mail" value={email} onChange={(e) => setEmail(e.target.value)}/>
             </div>
-
             <button type="submit">Enviar</button>
         </form>
     </section>
