@@ -1,5 +1,0 @@
-function CSection ({}) {
-    return (
-        
-    );
-}
