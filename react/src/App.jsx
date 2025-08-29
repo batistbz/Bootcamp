@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import CourseSection from "./components/CoursesSection";
 import NewSection from "./components/NewSection"
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <main>
     <CourseSection/>
     <NewSection/>
+    <ContactForm/>
     </main>
     </>
   );
