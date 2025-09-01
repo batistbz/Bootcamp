@@ -11,14 +11,19 @@ function App() {
         const detailedPokemon = await Promise.all(
           data.results.map(async (pokemon) => {
             const pokemonResponse = await fetch(pokemon.url);
+            return await pokemonResponse.json();
           })
         );
+
+        setPokemons(detailedPokemon);
         };
       });
+      
   return (
     <>
+      <h2>Titulo</h2>
     </>
-  )
+  );
 }
 
 export default App;
