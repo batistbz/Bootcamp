@@ -18,10 +18,9 @@ function App() {
         setPokemons(detailedPokemon);
         };
       });
-      
+
   return (
     <>
-      <h2>Titulo</h2>
     </>
   );
 }
