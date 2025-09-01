@@ -1,11 +1,11 @@
 import './PokemonCard.css';
 
-function PokemonCard() {
-    const type = PokemonCard.types[0].type.name;
+function PokemonCard({pokemon}) {
+    const type = pokemon.types[0].type.name;
     
     return(
         <div className={`card ${type}`}>
-            <div className="cardd-image-container">
+            <div className="card-image-container">
                 <img
                     src={pokemon.sprites.front_default} alt={`Imagem do ${pokemon.name}`} 
                     className="card-image"
