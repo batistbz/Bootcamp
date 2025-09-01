@@ -16,11 +16,23 @@ function App() {
         );
 
         setPokemons(detailedPokemon);
-        };
-      });
+      };
+        fetchPokemons();
+    }, []);
 
   return (
     <>
+      <div className="app-container">
+        <h1>Pokedex</h1>
+        <div className="pokemon-grid">
+          {pokemons.map(pokemon => (
+            <PokemonCard
+              key={pokemon.id}
+              pokemon={pokemon}
+            />
+          ))}
+          </div>
+      </div>
     </>
   );
 }

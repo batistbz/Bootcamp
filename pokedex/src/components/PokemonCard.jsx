@@ -1,0 +1,26 @@
+import './PokemonCard.css';
+
+function PokemonCard() {
+    const type = PokemonCard.types[0].type.name;
+    
+    return(
+        <div className={`card ${type}`}>
+            <div className="cardd-image-container">
+                <img
+                    src={pokemon.sprites.front_default} alt={`Imagem do ${pokemon.name}`} 
+                    className="card-image"
+
+               />     
+            </div>
+            <div className="card-info">
+                <span className="card-number">#{pokemon.id}</span>
+                <h3 className="card-name">{pokemon.name}</h3>
+                <p></p>
+                
+            </div>
+        </div>
+
+    );
+}
+
+export default PokemonCard;
