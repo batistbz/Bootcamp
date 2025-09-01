@@ -15,8 +15,7 @@ function PokemonCard() {
             <div className="card-info">
                 <span className="card-number">#{pokemon.id}</span>
                 <h3 className="card-name">{pokemon.name}</h3>
-                <p></p>
-                
+                <p className="card-type">Type:</p>
             </div>
         </div>
 
