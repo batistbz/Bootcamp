@@ -57,7 +57,10 @@ const championships = [
   },
 ];
 
-const getStatusColor = (status: string) => {
+import React from "react";  
+import { Zap, Target, Award } from "phosphor-react";
+
+const getStatusColor = (status) => {
   switch (status) {
     case "Inscrições Abertas":
       return "bg-green-100 text-green-800 border-green-200";
@@ -70,7 +73,7 @@ const getStatusColor = (status: string) => {
   }
 };
 
-const getDifficultyIcon = (difficulty: string) => {
+const getDifficultyIcon = (difficulty) => {
   switch (difficulty) {
     case "Avançado":
       return <Zap className="h-3 w-3" />;
@@ -80,6 +83,8 @@ const getDifficultyIcon = (difficulty: string) => {
       return <Award className="h-3 w-3" />;
   }
 };
+
+
 
 export function ChampionshipSection() {
   return (
