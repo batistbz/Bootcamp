@@ -111,7 +111,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-sidebar-border mt-8 pt-8 text-center text-sm text-sidebar-foreground/60">
-          <p>&copy; 2024 UniRepo. Todos os direitos reservados.</p>
+          <p>&copy; 2024 Unimar. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
