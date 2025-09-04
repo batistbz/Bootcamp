@@ -64,7 +64,7 @@ const getStatusColor = (status: string) => {
     case "Em Andamento":
       return "bg-blue-500/10 text-blue-700 border-blue-200";
     case "Últimos Dias":
-      return "bg-orange-500/10 text-orange-700 border-orange-200";
+      return "bg-orange-500/20 text-orange-800 border-orange-300";
     default:
       return "bg-muted text-muted-foreground border-border";
   }
@@ -109,7 +109,7 @@ export function ChampionshipSection() {
                       <Trophy className="h-5 w-5 text-primary" />
                       {championship.title}
                     </CardTitle>
-                    <CardDescription className="text-pretty mb-3">
+                    <CardDescription className="text-pretty mb-3 text-foreground/80">
                       {championship.description}
                     </CardDescription>
                   </div>
